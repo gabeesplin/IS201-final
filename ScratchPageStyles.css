@@ -1,0 +1,36 @@
+body {
+    background-color: #f5f5dc; /* beige background */
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+h1 {
+    color: #6f4e37; /* coffee color */
+}
+
+.nav, .footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container, .video-container, .tableau-graph {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: #6f4e37; /* matching the header color */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

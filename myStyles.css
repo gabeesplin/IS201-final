@@ -1,0 +1,81 @@
+h1{
+
+    color: whitesmoke
+}
+
+/* General body styling */
+body, html {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; /* Using the Google Font you included */
+}
+
+/* Ensures that all images are centered within their containers */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centering headers within sections */
+header {
+    background-position: center; /* If you're using a background image */
+    background-size: cover; /* To ensure the background covers the header */
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: center; /* Centers navbar items */
+    width: 100%;
+}
+
+/* Aligning navigation items */
+.navbar-nav {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block; /* Displays nav items in a line */
+    padding: 0 15px; /* Adds space between nav items */
+}
+
+/* Center content in the main sections */
+section {
+    margin: 20px 0; /* Adds vertical spacing between sections */
+}
+
+/* Center all text elements in footer */
+footer {
+    padding: 20px 0;
+    background-color: #f8f9fa; /* Light background for the footer */
+}
+
+/* Utilize utility classes to make frequent tasks easier */
+.text-center {
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack nav items under each other on smaller screens */
+    }
+
+    .nav-item {
+        padding: 10px 0; /* More vertical padding on mobile */
+    }
+}
+
+/* Center bullet points within lists */
+ul, ol {
+    display: flex;        /* Makes the list a flex container */
+    flex-direction: column; /* Aligns the list items in a column */
+    align-items: center;  /* Centers the list items horizontally */
+    list-style-position: inside; /* Positions the bullet inside the list item */
+    padding: 0;           /* Removes default padding */
+    width: 100%;          /* Optional, ensures the list takes full width */
+}
+
+li {
+    text-align: center;   /* Centers the text within list items */
+}
